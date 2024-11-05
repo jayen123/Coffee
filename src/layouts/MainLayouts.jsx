@@ -6,7 +6,7 @@ export default function MainLayouts() {
   return (
     <div>
       <Navbar />
-      <div className="min-h-screen container mx-auto">
+      <div className="container mx-auto">
         <Outlet />
       </div>
       <Footer />
